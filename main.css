@@ -1,3 +1,183 @@
 body {
-  font-family: 'Segoe UI';
+    font-family: 'Segoe UI';
+    margin: 0;
+}
+
+footer {
+    background-color: #007CC7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 300px;
+}
+
+.menu {
+    text-align: right;
+    height: 50px;
+    padding: 10px;
+}
+
+.ts {
+    margin-top: 50px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.avatar {
+    margin-top: 50px;
+	width: 293px;
+	height: 293px;
+}
+
+.aboutme-container {
+    background-color: #007CC7;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 250px;
+    height: 720px;
+}
+
+.orders-container {
+    background-color: #ffffff;
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: -200px;
+}
+
+.orders-web, .orders-bot {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.projects-container {
+    text-align: center;  
+    margin-top: 40px;
+}
+
+.myprojects-web {
+    display: inline-block;
+}
+
+.myprojects-img {
+    margin: 10px;
+    display: inline-block;
+}
+
+#title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(0,0,0,1);
+}
+
+#subtitle {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(75,75,75,1);
+}
+
+#myprojects {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(0,0,0,1);
+}
+
+#myprojects-subtitle {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(75,75,75,1);
+}
+
+#mp-subtitle {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(75,75,75,1);
+}
+
+#web-txt-SI {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#web-txt-SI2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#web-txt-SI3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    color: #007CC7;
+    padding: 30px;
+    font-size: 25px;
+}
+
+#web-txt-SI4 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#web-txt-DB {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#web-txt-DB2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#web-txt-DB3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    color: #007CC7;
+    padding: 30px;
+    font-size: 25px;
+}
+
+#web-txt-DB4 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#about-me1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#about-me2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px
+}
+
+#footer-txt {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px  
 }
