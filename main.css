@@ -1,1 +1,147 @@
+footer {
+    background-color: #007CC7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 300px;
+}
 
+.menu {
+    text-align: right;
+    height: 50px;
+    padding: 10px;
+}
+
+.introduction {
+    margin-top: 50px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.avatar {
+    margin-top: 50px;
+	width: 293px;
+	height: 293px;
+}
+
+.aboutme {
+    background-color: #007CC7;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 250px;
+    height: 720px;
+}
+
+.orders {
+    background-color: #ffffff;
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: -200px;
+}
+
+.orders-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    flex: 0 0 50%;
+    width: 50%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.projects {
+    text-align: center;  
+    margin-top: 40px;
+}
+
+.myprojects-web {
+    display: inline-block;
+}
+
+.myprojects-img {
+    margin: 10px;
+    display: inline-block;
+}
+
+#introduction-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(0,0,0,1);
+}
+
+#introduction-subtitle {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(75,75,75,1);
+}
+
+#projects-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(0,0,0,1);
+}
+
+#projects-subtitle {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(75,75,75,1);
+}
+
+#mp-subtitle {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(75,75,75,1);
+}
+
+.description {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.languages {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    color: #007CC7;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.tools {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#aboutme-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#aboutme-content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px
+}
+
+#footer-content {
+    color: white;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px  
+}
